@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="/dist/login.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../fonts/daxlinepro-light.ttf">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <section class="section">
+
+        <div class="img-section">
+            <!-- <div class="homeIcon" >
+                <div class="home-img">
+                    <i class="fa fa-home"></i>
+                </div>
+                <p class="backHome">Homepage</p>
+            </div>  -->
+            <div class="cast">
+                <img src="../assets/Votiva-Logo-1.png" class="imgCast">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="second-container">
+                <!-- <div class="home">
+                    <div class="home-image">
+                        <i class="fa fa-arrow-left"></i>
+                    </div>
+                    <p class="back-home">Back</p>
+                </div> -->
+                <div class="third-container">
+                    <div class="admin">
+                        <h2 class="loginText">Register</h2>
+                        <div class="adminAcc">
+                            <div class="circle"></div>
+                            <p style="color: #808181;">create admin account</p>
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <form class="form">
+                        <div class="form-div first-div">
+                            <div class="full-name">
+                                <label for="full-name" class="full-name">Full Name</label>
+                                <input id="full-name" name="full-name" type="text" class="name-input">
+                            </div>
+
+                            <div class="email">
+                                <label for="email-address" class="email-address">Email Address</label>
+                                <input id="email-address" name="email" type="email" autocomplete="email"
+                                    class="email-input">
+                            </div>
+
+                            <div class="organization">
+                                <label for="organization" class="organization">Name of organization</label>
+                                <input id="organization" name="organization" type="text" class="name-input">
+                            </div>
+
+                            <div class="orLogo">
+                                <label for="orLogo" class="orLogo">Organization logo</label>
+                                <div class="uploadLogo">
+                                    <span><i class="fa-solid fa-upload" style="color: #000000;"></i></span>
+                                    <div style="font-size: 12px;">Upload Photo</div>
+
+                                    <select class="option">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <button type="submit" class="button">
+                                Continue
+                            </button>
+                        </div>
+                        <div class="loginInstead">
+                            <a href="../html/login.html" class="loginInstead">Login instead</a>
+                        </div>
+
+                        <div class="second-form">
+                            <div class="password">
+                                <div class="password-div">
+                                    <label for="password" class="password-text">Choose Password</label>
+
+                                </div>
+                                <div class="section-password">
+                                    <input id="password" name="password" type="password" autocomplete="current-password"
+                                        required class="password-input">
+                                </div>
+                            </div>
+
+                            <div class="password">
+                                <div class="password-div">
+                                    <label for="password" class="password-text">Re-type Password</label>
+
+                                </div>
+                                <div class="section-password">
+                                    <input id="password" name="password" type="password" autocomplete="current-password"
+                                        required class="password-input">
+                                </div>
+                            </div>
+
+                            <div class="elections">
+                                <label for="elections" class="elections">Number of elections per year</label>
+                                <input id="elections" name="elections" type="text" required class="name-input">
+                            </div>
+
+                            <div class="voters">
+                                <label for="voters" class="voters">Number of voters/members</label>
+                                <input id="voters" name="voters" type="text" required class="name-input">
+                            </div>
+                        </div>
+
+
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
